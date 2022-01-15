@@ -8,8 +8,6 @@ import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import javax.naming.CompositeName;
-
 /**
  * Test Case for Practice:
  * 1. Go to https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_ev_ondblclick2

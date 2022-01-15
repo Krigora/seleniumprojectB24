@@ -1,23 +1,20 @@
 package com.cybertek.tests.day20_review_wait;
 
 import com.cybertek.tests.TestBase;
-import com.cybertek.tests.TestBase;
 import com.cybertek.utils.BrowserUtils;
-import com.cybertek.utils.ConfigurationReader;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
-public class ExplicitWaitExamples extends TestBase {
+public class ExplicitWaitExample extends TestBase {
     // http://practice.cybertekschool.com/dynamic_loading/1
-
 
     @Test
     public void test1(){
 
-        driver.get(ConfigurationReader.getProperty("dynamic.loading.url"));
+        driver.get("http://practice.cybertekschool.com/dynamic_loading/1");
         WebDriverWait wait = new WebDriverWait(driver,20);
 
         WebElement triggerButton = driver.findElement(By.xpath("//button[.='Start']"));
@@ -43,7 +40,7 @@ public class ExplicitWaitExamples extends TestBase {
     @Test
     public void test2(){
         // http://practice.cybertekschool.com/dynamic_controls
-        driver.get(ConfigurationReader.getProperty("dynamic.control.url"));
+        driver.get("http://practice.cybertekschool.com/dynamic_controls");
         WebDriverWait wait = new WebDriverWait(driver,20);
 
         WebElement enAbleDisAbleBtn = driver.findElement(By.xpath("(//button)[2]"));

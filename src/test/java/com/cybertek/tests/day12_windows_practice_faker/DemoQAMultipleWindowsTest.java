@@ -1,11 +1,10 @@
 package com.cybertek.tests.day12_windows_practice_faker;
 
 import com.cybertek.utils.WebDriverFactory;
-import netscape.security.ForbiddenTargetException;
-import org.bouncycastle.math.ec.custom.sec.SecT113Field;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -40,8 +39,8 @@ public class DemoQAMultipleWindowsTest {
         WebElement newWindowBtn = drive.findElement(By.cssSelector("#windowButton"));
         newWindowBtn.click();
 
-        //driver.close(); // close currently active window
-        //driver.quit(); // closes all opened windows in same session
+        // driver.close(); // close currently active window
+        // driver.quit(); // closes all opened windows in same session
 
         Set<String> windowHandlesSet = drive.getWindowHandles();
         String parentWindowHandle = drive.getWindowHandle(); //store current window handle

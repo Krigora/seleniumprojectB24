@@ -3,7 +3,6 @@ package com.cybertek.tests.day19_page_object_model;
 import com.cybertek.tests.TestBase;
 import com.cybertek.utils.ConfigurationReader;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 

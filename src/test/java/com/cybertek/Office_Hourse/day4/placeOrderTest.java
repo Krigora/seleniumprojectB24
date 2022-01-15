@@ -8,8 +8,6 @@ import com.cybertek.utils.officeUtils;
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
-import com.cybertek.tests.TestBase;
-
 public class placeOrderTest extends TestBase {
      /*
     DemoBlaze WebSite Order Confirmation

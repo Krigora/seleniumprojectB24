@@ -9,7 +9,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-public class JavaScriptExecutorTest extends TestBase {
+public class JavaScriptExecutorTest extends TestBase{
     @Test
     public void alertExampleTest() {
         //casting from WebDrive to JavaScriptExecutor interface

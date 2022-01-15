@@ -1,14 +1,10 @@
 package com.cybertek.pages;
 
 import com.cybertek.tests.TestBase;
-import com.cybertek.utils.ConfigurationReader;
 import com.cybertek.utils.Driver;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.Test;
 
 public class LabLogMountainWarehouse extends TestBase {
     public LabLogMountainWarehouse(){

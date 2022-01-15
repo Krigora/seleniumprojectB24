@@ -28,7 +28,7 @@ public class RegistrationFormTestBase {
 
     @AfterMethod
     public void tearDown() {
-        //driver.quit();
+        driver.quit();
 
     }
 }
